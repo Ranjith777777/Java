@@ -1,29 +1,20 @@
 package pratices.index;
-import java.util.Scanner;
+public class ranjith{
+	String name;
+	int a;
+	 int empid;
+	 
+	public void display() {
 
-public class Else_if {
-public static void main(String[]args) {
-Scanner obj=new Scanner(System.in);
-System.out.println("enter your mark");
- int mark=obj.nextInt();
- if(mark>=90) {
-	 System.out.println("grade A");
- }
- else if(mark>=80) {
-	 System.out.println("grade b");	 
- }
- else if(mark>=60) {
-	 System.out.println("grade c");
- }
- else if(mark>=50) {
-	 System.out.println("grade d");
- }
- else if(mark>=35) {
-	 System.out.println("grade f");
-	 }
- else {
-	 System.out.println("fail");
- }
+		System.out.println("name"+ name);
+		System.out.println("a"+ a);
+		System.out.println("empid"+ empid);
+	}
+	public static void main(String[]args) {
+		ranjith s1= new ranjith();
+		s1.name="ranjith";
+		s1.a=7;
+		s1.empid=100;
+		s1.display();
+	}
 }
-}
-
