@@ -1,5 +1,5 @@
 package pratices.index;
-public class ranjith{
+public class Ranjith{
 	String name;
 	int a;
 	 int empid;
@@ -11,7 +11,7 @@ public class ranjith{
 		System.out.println("empid"+ empid);
 	}
 	public static void main(String[]args) {
-		ranjith s1= new ranjith();
+		Ranjith s1= new Ranjith();
 		s1.name="ranjith";
 		s1.a=7;
 		s1.empid=100;
