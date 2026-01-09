@@ -1,5 +1,5 @@
 package pratices.index;
-public class Ranjith{
+public class ranjith{
 	String name;
 	int a;
 	 int empid;
