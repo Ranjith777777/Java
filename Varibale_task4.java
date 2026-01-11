@@ -11,7 +11,7 @@ public class Varibale_task4 {
 	
   }
   public static void main(String[] args) {
-	  System.out.println("staticvariable"+Varibale_task4.name);
+	  System.out.println("staticvariable"+name);
 	  Varibale_task4 s1= new Varibale_task4();
 	  s1.sum();
   }
